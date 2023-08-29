@@ -29,7 +29,6 @@ function longestCommonPrefix(strings) {
     // run a for loop across the currWord
     for (let i = 0; i < strings[currWordIndex].length - 1; i++) {
       // If letter matches first word letter at index, add to matchingLetters
-      console.log(strings[currWordIndex], "THE CURR WORD");
       if (strings[currWordIndex][i] === strings[0][i]) {
         if (i === strings[currWordIndex].length - 1) {
           matchingLetters += strings[currWordIndex][i];
